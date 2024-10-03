@@ -1,0 +1,105 @@
+:root {
+    --primary-color: #2C5F2D;
+    --secondary-color: #3A86FF;
+    --accent-color1: #9C6644;
+    --accent-color2: #EDF2F4;
+    --primary-color-low-opacity: #2c5f2de7;
+    --border-radius: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--primary-color);
+}
+
+header nav {
+    display: flex;
+    gap: 30px;
+}
+
+header nav a {
+    background-color: var(--secondary-color);
+    text-decoration: none;
+    color: var(--accent-color2);
+    padding: 10px;
+    border-radius: var(--border-radius);
+}
+
+#hero {
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--accent-color2);
+    padding: 30px;
+}
+
+.hero-article {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: var(--primary-color-low-opacity);
+    border-radius: var(--border-radius);
+    margin: 30px;
+    height: 300px;
+    padding: 30px;
+    font-size: 25px;
+    
+}
+
+.hero-article img {
+    width: 400px;
+    height: 200px;
+}
+
+.container {
+    border-radius: var(--border-radius);
+    background-color: var(--accent-color2);
+    margin: 10px;
+    padding: 30px;
+}
+
+.adveture-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px    
+}
+
+.adveture-images img {
+    width: 300px;
+    height: 200px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.social-media {
+    display: flex;
+    gap: 30px;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+}
+
+h1, h2, h3 {
+    font-family: "Fredoka", sans-serif; 
+    color: var(--secondary-color);
+}
+
+p, a {
+    font-family: "Ubuntu", sans-serif;
+}
