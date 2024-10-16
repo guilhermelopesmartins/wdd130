@@ -164,7 +164,7 @@ form {
     gap: 15px;
 }
 
-input, select, textarea, label {
+input, select, textarea, label, button {
     padding: 0.5rem;
     font-size: 1.1rem;
 }
@@ -174,7 +174,7 @@ input, select, textarea, label {
     gap: 10px;
 }
 
-input[type="submit"] {
+button {
     width: 200px;
 }
 
